@@ -22,5 +22,5 @@ android {
 
 dependencies {
     compile "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
-    compile "com.google.android.gms:play-services-analytics:${safeExtGet('googlePlayServicesVersion', '+')}"
+    compile "com.google.android.gms:play-services-analytics:16.0.4"
 }
